@@ -13,7 +13,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(38, 137, 225);
+    background-color: rgb(22, 74, 151);
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -47,6 +47,9 @@ body {
 
 }
 
+a {
+    color: #164a97;
+}
 
 
 /* Custom page footer */
@@ -111,11 +114,11 @@ body {
 }
 
 .icons {
-    width: 40px;
+    width: 60px;
 }
 
 .all-icons {
-    margin-left: 195px;
+    margin-left: 120px;
     margin-bottom: 10px;
 }
 
@@ -129,7 +132,7 @@ body {
 }
 
 h4 {
-    color: rgb(254, 154, 0);
+    color: #164a97;
     font-size: 18px;
      margin-top: 30px;
 }
@@ -142,32 +145,33 @@ h5 {
 }
 
 .logo {
-    width: 700px;
+    width: 550px;
     margin-bottom: -55px;
+    margin-left: 55px;
 }
 
 .opening-lines {
     line-height: 34px;
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 .link {
-   color: #FDE5C5;
-   font-size: 22px;
-   border-bottom: 2px solid rgb(254, 154, 0);
+   color: rgb(173, 206, 255);
+    font-size: 22px;
+    border-bottom: 2px solid rgb(173, 206, 255);
 }
 
 .example-link {
-    color: #FDE5C5;
-    border-bottom: 2px solid #fe9a00;
+    color: #164a97;
+    border-bottom: 2px solid #164a97;
 }
 
 .title {
     margin-left: 235px;
     font-size: 18px;
-    color: rgb(248, 152, 29);
+    color: rgb(22, 74, 151);
 }
 
 .end {
