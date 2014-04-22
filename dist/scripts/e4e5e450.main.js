@@ -1,0 +1,1 @@
+$(document).ready(function(){$("aboutme").click(function(a){return a.preventDefault(),!1})});
